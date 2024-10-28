@@ -10,7 +10,7 @@ import { Toaster } from "sonner";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Jira Clone",
+  title: "Task Flow",
   description: "",
 };
 
@@ -39,8 +39,8 @@ export default function RootLayout({ children }) {
             <Header />
             <main className="min-h-screen">{children}</main>
             <Toaster richColors />
-            <footer className="bg-gray-900 py-12">
-              <div className="container mx-auto px-4 text-center text-gray-200">
+            <footer className="py-12 bg-gray-900">
+              <div className="container px-4 mx-auto text-center text-gray-200">
                 <p>Made with 💗 by RoadsideCoder</p>
               </div>
             </footer>
